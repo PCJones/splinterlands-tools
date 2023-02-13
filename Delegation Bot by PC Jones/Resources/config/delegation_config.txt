@@ -4,10 +4,10 @@ DELEGATE_FROM=
 # Keep the heighest level/gold card on main
 KEEP_BEST_CARD_ON_MAIN=true
 
-# Delegate cards to all accounts in logins.txt file
-DELEGATE_TO_LOGINS_TXT_FILE=true
+# Delegate cards to all accounts in delegation_accounts.txt file
+DELEGATE_TO_ACCOUNTS_TXT_FILE=true
 
-# If delegate_to_accounts_txt_file=false specify to which accounts the bot should delegate (must be in logins.txt file)
+# If DELEGATE_TO_ACCOUNTS_TXT_FILE=false specify to which accounts the bot should delegate (must be in delegation_accounts.txt file)
 DELEGATE_TO=account1,account2,account3
 
 

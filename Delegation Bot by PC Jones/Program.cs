@@ -13,7 +13,7 @@ namespace Delegation_Bot_by_PC_Jones
             string path = AppContext.BaseDirectory;
             var directory = Path.GetDirectoryName(path);
 
-            var (delegateFrom, delegateToAccountsTxtFile, delegateTo, cardsToDelegate, cardsToDelegateRegular, cardsToDelegateGold, keepBestCardOnMain) = ReadConfig(directory + "/data/delegation_settings.txt");
+            var (delegateFrom, delegateToAccountsTxtFile, delegateTo, cardsToDelegate, cardsToDelegateRegular, cardsToDelegateGold, keepBestCardOnMain) = ReadConfig(directory + "/config/delegation_config.txt");
             string[] usernamesRaw = File.ReadAllText(directory + "/config/delegation_accounts.txt").Split(Environment.NewLine);
 
             if (delegateToAccountsTxtFile)
@@ -99,7 +99,7 @@ namespace Delegation_Bot_by_PC_Jones
                     case "DELEGATE_FROM":
                         delegateFrom = temp[1].Trim().ToLower();
                         break;
-                    case "DELEGATE_TO_LOGINS_TXT_FILE":
+                    case "DELEGATE_TO_ACCOUNTS_TXT_FILE":
                         delegateToAccountsTxtFile = Boolean.Parse(temp[1]);
                         break;
                     case "DELEGATE_TO":
