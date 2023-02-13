@@ -1,0 +1,17 @@
+1.) Put all your accounts in the reward_statistics_accounts.txt file, one per line.
+You can just copy and paste the username:postingkey:etc format from other files, everything after the first : is ignored
+
+Example:
+account1
+account2
+account3
+
+Or:
+account1:postingkey:activekey
+account2:postingkey
+account2:postingkey:activekey
+
+2.) Run the Reward Statistics Tool and enter either a date to get the rewards for a specific date or enter e.g. 10 for the data of the last 10 days. 
+Note that splinterlands only allows to access data for roughly the last ~ 25-30 days
+
+3.) If the generated CSV does look wrongly formatted open the csv_seperator.txt file and change the semicolon(;) to a comma(,)
