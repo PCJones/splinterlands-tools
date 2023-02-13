@@ -136,6 +136,10 @@ namespace Asset_Transfer_Bot_by_PC_Jones
                     string postingKey = loginDataTrimmed.Split(':')[1].Trim();
                     string activeKey = loginDataTrimmed.Split(':')[2].Trim();
                     string mainAccount = loginDataTrimmed.Split(':').Length > 3 ? loginDataTrimmed.Split(':')[3].Trim() : answer1.Trim();
+                    if (username == answer1 && mainAccount == answer1)
+                    {
+                        continue;
+                    }
 
                     transferBot.StartAccount(username, postingKey, activeKey, mainAccount);
 
