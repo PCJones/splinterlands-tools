@@ -19,3 +19,6 @@ For all your accounts:
 **Urgently needed features/updates**:
 - Replace HttpWebRequest class with an HttpClient that supports gzip compression to avoid hitting splinterlands API limit
 - Add a feature to unstake SPS
+
+## Reward Statistics Tool Features
+-  Creates an Excel sheet (.csv) of all your accounts quest/season reward for every day
