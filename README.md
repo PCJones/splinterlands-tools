@@ -22,8 +22,6 @@ For all your accounts:
 - Add a feature to unstake SPS
 
 ## Delegation Bot
-**Note: This is still missing from the repository, I will add it in a few hours**
-
 **Features:**
 - Automatically delegate specified cards to all your accounts
 - The bot will not delegate the card if the account already has it (owned, delegated, or rented)
