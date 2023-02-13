@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegationBot_by_PC_Jones
+namespace Delegation_Bot_by_PC_Jones
 {
     public record Card : IComparable
     {

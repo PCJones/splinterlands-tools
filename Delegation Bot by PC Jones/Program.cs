@@ -4,7 +4,7 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 
-namespace DelegationBot_by_PC_Jones
+namespace Delegation_Bot_by_PC_Jones
 {
     class Program
     {

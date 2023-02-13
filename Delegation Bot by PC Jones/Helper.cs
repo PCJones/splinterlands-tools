@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace DelegationBot_by_PC_Jones
+namespace Delegation_Bot_by_PC_Jones
 {
     public static class Helper
     {

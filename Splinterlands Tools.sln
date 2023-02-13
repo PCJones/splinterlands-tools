@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Transfer Bot by PC Jones", "Asset Transfer Bot by PC Jones\Asset Transfer Bot by PC Jones.csproj", "{344DB24B-D2BE-40D8-8F77-BCDE89B15555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asset Transfer Bot by PC Jones", "Asset Transfer Bot by PC Jones\Asset Transfer Bot by PC Jones.csproj", "{344DB24B-D2BE-40D8-8F77-BCDE89B15555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reward Statistics Tool by PC Jones", "Reward Statistics Tool by PC Jones\Reward Statistics Tool by PC Jones.csproj", "{6193303E-9343-4FC4-A365-10E996915783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reward Statistics Tool by PC Jones", "Reward Statistics Tool by PC Jones\Reward Statistics Tool by PC Jones.csproj", "{6193303E-9343-4FC4-A365-10E996915783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegationBot by PC Jones", "DelegationBot by PC Jones\DelegationBot by PC Jones.csproj", "{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegation Bot by PC Jones", "Delegation Bot by PC Jones\Delegation Bot by PC Jones.csproj", "{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
