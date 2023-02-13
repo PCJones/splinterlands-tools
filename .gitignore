@@ -16,6 +16,16 @@
 # Mono auto generated files
 mono_crash.*
 
+# Project-specific files
+config.txt
+logins.txt
+accounts.txt
+log.txt
+chromedriver.exe
+compile.bat
+*.zip
+
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
