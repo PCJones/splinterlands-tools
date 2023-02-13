@@ -23,7 +23,7 @@ For all your accounts:
 ## Reward Statistics Tool Features
 -  Creates an Excel sheet (.csv) of all your accounts quest/season reward for every day
 
-## System requirements for all tools:
+## System requirements for all tools
 - RAM: 256MB (if you have 10.000+ cards on a single account you might need more for some tools)
 - OS: Windows, Linux, MacOS, with some tweaks Android
 - CPU: Yes
