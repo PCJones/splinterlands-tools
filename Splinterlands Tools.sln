@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asset Transfer Bot by PC Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reward Statistics Tool by PC Jones", "Reward Statistics Tool by PC Jones\Reward Statistics Tool by PC Jones.csproj", "{6193303E-9343-4FC4-A365-10E996915783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegationBot by PC Jones", "DelegationBot by PC Jones\DelegationBot by PC Jones.csproj", "{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6193303E-9343-4FC4-A365-10E996915783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6193303E-9343-4FC4-A365-10E996915783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6193303E-9343-4FC4-A365-10E996915783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDC0BDB-21F2-4FE6-A9BE-39BEC80AD710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

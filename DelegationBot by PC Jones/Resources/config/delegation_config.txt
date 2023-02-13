@@ -1,0 +1,25 @@
+# Account to delegate from (e.g. your main) - must be in delegation_accounts.txt file
+DELEGATE_FROM=
+
+# Keep the heighest level/gold card on main
+KEEP_BEST_CARD_ON_MAIN=true
+
+# Delegate cards to all accounts in logins.txt file
+DELEGATE_TO_LOGINS_TXT_FILE=true
+
+# If delegate_to_accounts_txt_file=false specify to which accounts the bot should delegate (must be in logins.txt file)
+DELEGATE_TO=account1,account2,account3
+
+
+### Seperate card ids by comma, e.g. 105,23,215
+### Don't know the correct card id? If your card id looks like C4-160-XHUQQLE454 then 160 is the card ID
+### You can also see the card ID here (number in top right corner): https://www.splintercards.com/cards.html
+
+# Cards to delegate (regular AND gold foil)
+CARDS_TO_DELEGATE=
+
+# Cards to delegate (regular foil ONLY)
+CARDS_TO_DELEGATE_REGULAR=
+
+# Cards to delegate (gold foil ONLY)
+CARDS_TO_DELEGATE_GOLD=
