@@ -1,0 +1,19 @@
+1) Install dotnet 6.0 runtime for console apps (on windows):
+https://dotnet.microsoft.com/download/dotnet/6.0/runtime
+
+2) In the config folder you will find a file called delegation_accounts.txt. 
+Open the delegation_accounts.txt file. 
+Here you will list all of your accounts including your main account. 
+You need the username and posting key aswell as the active key for every account. 
+Please note that the usernames are case sensitive and should be written in lowercase letters and without @.
+Use the following format:
+
+username:posting_key:active_key
+
+3) YOU MUST ENTER ONLY ONE ACCOUNT PER LINE.
+
+4) Open the delegation_config.txt file in the config folder and configure it the way you want it - every option is explained in there.
+
+5) Once you have entered the information for all of your accounts and set up the config file, make sure to DOUBLE CHECK all settings.
+
+6) Then, once you open the .exe file it will immediately start delegating

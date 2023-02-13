@@ -17,7 +17,7 @@ username:posting_key:active_key
 
 3) YOU MUST ENTER ONLY ONE ACCOUNT PER LINE.
 
-4) Once you have entered the information for all of your alt accounts, run the Splinterlands Asset Transfer Bot.exe file. 
+4) Once you have entered the information for all of your alt accounts, run the .exe file. 
 The program will prompt you to enter your main account infomation to where you will be transferring all of your assets. 
 
 5) THIS STEP IS EXTRAORDINARILY IMPORTANT. YOU MUST ENTER YOUR MAIN ACCOUNT NAME CORRECTLY. 
