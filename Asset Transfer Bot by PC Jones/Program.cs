@@ -88,7 +88,7 @@ namespace Asset_Transfer_Bot_by_PC_Jones
                 Console.ReadLine();
             }
 
-            string[] usernamesRaw = File.ReadAllText(directory + "/config/accounts.txt").Split(Environment.NewLine);
+            string[] usernamesRaw = File.ReadAllText(directory + "/config/asset_transfer_accounts.txt").Split(Environment.NewLine);
             TransferBot transferBot = new TransferBot(transferSPS, transferDEC, transferCards, transferChaosPacks, keepMinDEC);
             if (claimSPSAirdrop || claimSPS)
             {

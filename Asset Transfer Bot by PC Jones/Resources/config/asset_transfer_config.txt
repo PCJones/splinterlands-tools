@@ -1,0 +1,15 @@
+USE_CONFIG=false
+CLAIM_SPS=true
+CLIAM_SPS_AIRDROP=false
+SEND_SPS=true
+SEND_CARDS=true
+SEND_DEC=true
+SEND_CHAOS_PACK=true
+
+## If you set this to 10 and the account has 25 DEC it will only send 15 and keep 10
+## Set it to 0 to send ALL DEC
+ONLY_SEND_DEC_ABOVE=0
+
+## Enter the account to send all assets to.
+## You can also specify a receiving account in logins.txt for each account
+RECEIVING_ACCOUNT=

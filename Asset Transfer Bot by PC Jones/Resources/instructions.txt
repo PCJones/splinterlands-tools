@@ -1,0 +1,46 @@
+Welcome to the Asset Transfer Bot by PC Jones!
+
+PLEASE FOLLOW THESE INSTRUCTIONS EXACTLY IN ORDER TO USE THIS BOT CORRECTLY.
+
+
+1) Install dotnet 6.0 runtime for console apps (on windows):
+https://dotnet.microsoft.com/download/dotnet/6.0/runtime
+
+2) In the config folder you will find a file called asset_transfer_accounts.txt. 
+Open the asset_transfer_accounts.txt file. 
+Here you will list all of your alt accounts from which you are transferring. 
+You need the username and posting key to log into each account. 
+Please note that the usernames are case sensitive and should be written in lowercase letters and without @.
+Use the following format:
+
+username:posting_key:active_key
+
+3) YOU MUST ENTER ONLY ONE ACCOUNT PER LINE.
+
+4) Once you have entered the information for all of your alt accounts, run the Splinterlands Asset Transfer Bot.exe file. 
+The program will prompt you to enter your main account infomation to where you will be transferring all of your assets. 
+
+5) THIS STEP IS EXTRAORDINARILY IMPORTANT. YOU MUST ENTER YOUR MAIN ACCOUNT NAME CORRECTLY. 
+CONFIRM YOUR MAIN ACCOUNT NAME ON YOUR MAIN ACCOUNT SPLINTERLANDS HOME PAGE. IT IS LOCATED BELOW THE DAILY QUEST BOX. 
+THE ACCOUNT NAME THAT YOU ENTER IS CASE SENSITIVE. THE PROGRAM WILL ASK YOU TWICE TO CONFIRM YOUR MAIN ACCOUNT NAME. 
+ENTER ONLY YOUR ACCOUNT NAME; DO NOT INCLUDE THE @ BEFORE IT. 
+
+FAILURE TO ENTER YOUR MAIN ACCOUNT NAME EXACTLY AS IT SHOULD BE WILL EITHER CAUSE THE PROGRAM TO WORK INCORRECTLY 
+OR YOUR ASSETS WILL BE TRANSFERRED TO SOMEONE ELSE'S ACCOUNT. 
+YOU MUST BE RESPONSIBLE FOR YOUR OWN ASSETS AND MAKE 100% SURE THAT YOU ARE TRANSFERRING YOUR ALT ACCOUNT ASSETS TO YOUR MAIN ACCOUNT. 
+ALL TRANSACTIONS ON SPLINTERLANDS ARE IRREVERSIBLE, SO YOU MUST TAKE RESPONSIBILITY AND ENTER THE INFORMATION CORRECTLY.
+
+6) You will be asked if you want to transfer your cards, SPS, and DEC to your main account. 
+Please enter y or n in response to each query in order to indicate your preference.
+Alternatively see 9)
+
+7) Sit back, relax and enjoy knowing that you no longer have to spend hours working on all of your alt accounts!
+
+8) Alternative Sending Mode:
+You can use the format
+username:posting_key:active_key:receiving_user in asset_transfer_accounts.txt file
+to specify which user sends stuff to which account! Be careful to not mistype the receiving username!
+You will still need to specify an account to send to on bot start in case some accounts dont have a receiving user
+
+9) Config mode:
+You can also use the asset_transfer_config.txt to specify what the bot should do
