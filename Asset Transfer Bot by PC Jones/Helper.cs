@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -27,6 +28,18 @@ namespace Asset_Transfer_Bot_by_PC_Jones
                 }
                 return sb.ToString();
             }
+        }
+        public static HttpClient SetupHttpClient()
+        {
+            var clientHandler = new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
+            };
+            var httpClient = new HttpClient(clientHandler);
+            httpClient.Timeout = new TimeSpan(0, 2, 15);
+            httpClient.DefaultRequestHeaders.Add("User-Agent", "USB-Transfer/1.0");
+            httpClient.DefaultRequestHeaders.AcceptEncoding.Add(new System.Net.Http.Headers.StringWithQualityHeaderValue("gzip"));
+            return httpClient;
         }
         public static string GenerateRandomString(int n)
         {

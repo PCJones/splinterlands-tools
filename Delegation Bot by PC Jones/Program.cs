@@ -40,7 +40,7 @@ namespace Delegation_Bot_by_PC_Jones
             }
 
             JArray cardDetails = JArray.Parse(Helper.DownloadPageAsync("https://api2.splinterlands.com/cards/get_details").Result);
-            CHived oHived = new CHived(Helper.HttpClient, "https://api.deathwing.me/");
+            CHived oHived = new CHived(Helper.HttpClient, "https://api.hive.blog/");
 
             List<Card> availableCards = Delegation.GetDelegatableCards(delegateFrom);
 

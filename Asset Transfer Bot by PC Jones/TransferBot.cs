@@ -16,7 +16,7 @@ namespace Asset_Transfer_Bot_by_PC_Jones
     {
         private static readonly string SplinterlandsAPI = "https://api2.splinterlands.com";
         private static readonly string SplinterlandsAPIFallback = "https://game-api.splinterlands.io";
-        private static readonly string API_URL = "https://api.deathwing.me/";
+        private static readonly string API_URL = "https://api.hive.blog/";
         private static char[] Subset = "0123456789abcdefghijklmnopqrstuvwxyz".ToCharArray();
         private HttpClient _httpClient;
         private Random _Random;
@@ -32,7 +32,7 @@ namespace Asset_Transfer_Bot_by_PC_Jones
             TransferDECActivated = transferDEC;
             TransferCardsActivated = transferCards;
             TransferChaosPacksActivated = transferChaosPacks;
-            _httpClient = new HttpClient();
+            _httpClient = Helper.SetupHttpClient();
             _Random = new Random();
             oHived = new CHived(_httpClient, API_URL);
             keepMinDEC = _keepMinDEC;
